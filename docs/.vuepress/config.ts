@@ -1,6 +1,4 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
-//import { searchPlugin } from '@vuepress/plugin-search'
-
 import navbar from './conf/navbar-conf'
 
 
@@ -10,9 +8,8 @@ export default defineUserConfig({
     base: '/',//部署站点的基础路径
     head: [['link', { rel: 'icon', href: 'clxbx6O5YYXPaOb.png' }]],
     lang: 'zh-CN',
-    title: '你好， bbzywkq ！',
+    title: '你好, bbzywkq !',
     description: '这是我的第一个 VuePress 站点',
-
     //主题配置
     theme: defaultTheme({
         colorModeSwitch: true,//是否启动主题颜色切换
@@ -32,13 +29,7 @@ export default defineUserConfig({
         lastUpdatedText: '最近编辑时间',
         contributors: true,//是否启用贡献者列表
         contributorsText: '贡献者列表',
-    }),
-    //插件配置
-    // plugins:[
-    //     searchPlugin({
-    //         maxSuggestions: 3
-    //     })
-    // ]
+    })
 })
 
 
