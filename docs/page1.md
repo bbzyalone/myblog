@@ -5,9 +5,15 @@ editLink: true
 editLinkPattern: https://www.baidu.com
 #是否在本页面中启用 最近更新时间戳 
 lastUpdated: true
+#是否启用贡献者列表
+contributors: true
+#配置本页面的侧边栏 类型： false | 'auto' | SidebarConfigArray | SidebarConfigObject
+sidebar: 'auto'
+#配置本页面的侧边栏深度。
+sidebarDepth: 2
 ---
 
-# 图表类
+# 这是一个测试页面
 
 [processon在线流程图思维导图](https://www.processon.com)
 
@@ -31,6 +37,40 @@ lastUpdated: true
 
 [png素材](https://pluspng.com/)
 
+- VuePress - <Badge type="tip" text="v2" vertical="top" />
+- VuePress - <Badge type="warning" text="v2" vertical="middle" />
+- VuePress - <Badge type="danger" text="v2" vertical="bottom" />
+
+
+::: tip
+这是一个提示
+:::
+
+::: warning
+这是一个警告
+:::
+
+::: danger
+这是一个危险警告
+:::
+
+::: details
+这是一个 details 标签
+:::
+
+:::: code-group
+::: code-group-item npm
+```ts
+const foo = 'foo'
+```
+:::
+::: code-group-item yarn
+```ts
+const bar = 'bar'
+```
+:::
+::::
+
 [logo设计](https://www.uugai.com/)
 
 [logo素材](https://www.logosc.cn/logo/)
@@ -38,4 +78,16 @@ lastUpdated: true
 [极简壁纸](https://bz.zzzmh.cn/index)
 
 
-# 我就想不通
+## 我就想不通
+[logo素材](https://www.logosc.cn/logo/)
+
+[极简壁纸](https://bz.zzzmh.cn/index)
+
+### 我确实想不通
+[png素材](https://pluspng.com/)
+
+[logo设计](https://www.uugai.com/)
+
+
+
+<img src="http://file.bbzy.online//blog/houses-5763699_1920.jpg" alt="houses-5763699_1920"  />
